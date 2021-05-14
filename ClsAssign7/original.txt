@@ -1,0 +1,5 @@
+Hello world,
+This is a file
+truncated text
+truncated text
+end of file.

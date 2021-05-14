@@ -1,0 +1,15 @@
+use Patient_Details
+
+db.createCollection('patients')
+
+db.patients.insertOne(
+    {
+        Name:'Raj',
+        age:25,
+        ID:123,
+        gender:'Male',
+        address:'Coimbatore',
+        marital_status:'single',
+        DateOfVisit:Date()
+    }
+)
